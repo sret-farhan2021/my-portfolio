@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+`# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This is a personal portfolio website built with React.js to showcase various projects, skills, and experiences. It includes sections for a home page, projects, contact information, and a detailed view of each project. The site is responsive and utilizes Tailwind CSS for styling.
 
-In the project directory, you can run:
+## Tech Stack
 
-### `npm start`
+- **Frontend**: React.js, Tailwind CSS
+- **State Management**: React Hooks
+- **Routing**: React Router
+- **Styling**: Tailwind CSS
+- **Development Tools**: ESLint, Prettier
+- **Deployment**: GitHub Pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Home Page**: Overview of skills and personal introduction.
+- **Projects**: Displays a grid of project cards with details and links to individual project pages.
+- **Project Detail**: Detailed view of each project with description and image.
+- **Contact Page**: Contact form and contact information.
 
-### `npm test`
+## Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the Repository**
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/your-username/my-portfolio.git `
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.  **Navigate to the Project Directory**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    bash
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Copy code
 
-### `npm run eject`
+    `cd my-portfolio`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2.  **Install Dependencies**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    bash
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Copy code
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    `npm install`
 
-## Learn More
+3.  **Start the Development Server**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    bash
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Copy code
 
-### Code Splitting
+    `npm start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4.  **Build the Project for Production**
 
-### Analyzing the Bundle Size
+    bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    Copy code
 
-### Making a Progressive Web App
+    `npm run build`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+5.  **Deploy to GitHub Pages**
 
-### Advanced Configuration
+    bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    Copy code
 
-### Deployment
+    `npm run deploy`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+File Structure
+--------------
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-   `src/` - Contains all React components, pages, and assets.
+-   `.devcontainer/` - Configuration files for the development container.
+-   `.eslintrc` - ESLint configuration file.
+-   `.prettierc` - Prettier configuration file.
+-   `public/` - Static files and the main HTML template.
+-   `README.md` - This file.
