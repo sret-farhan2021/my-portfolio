@@ -1,4 +1,4 @@
-`# My Portfolio
+# My Portfolio
 
 ## Description
 
@@ -24,46 +24,31 @@ This is a personal portfolio website built with React.js to showcase various pro
 
 1. **Clone the Repository**
 
-   ```bash
-   git clone https://github.com/your-username/my-portfolio.git `
+
+   `git clone https://github.com/your-username/my-portfolio.git `
 
 1.  **Navigate to the Project Directory**
 
-    bash
-
-    Copy code
 
     `cd my-portfolio`
 
 2.  **Install Dependencies**
 
-    bash
-
-    Copy code
 
     `npm install`
 
 3.  **Start the Development Server**
 
-    bash
-
-    Copy code
 
     `npm start`
 
 4.  **Build the Project for Production**
 
-    bash
-
-    Copy code
 
     `npm run build`
 
 5.  **Deploy to GitHub Pages**
 
-    bash
-
-    Copy code
 
     `npm run deploy`
 
