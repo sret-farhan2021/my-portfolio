@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.1c9444a2.css",
-    "main.js": "/my-portfolio/static/js/main.06aee5b3.js",
+    "main.css": "/my-portfolio/static/css/main.6100a453.css",
+    "main.js": "/my-portfolio/static/js/main.cdd9f241.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/tic-tac-toe.png": "/my-portfolio/static/media/tic-tac-toe.6e8dceb42820a8a0b353.png",
+    "static/media/react project.png": "/my-portfolio/static/media/react project.8220b4ebcee5b91d8621.png",
+    "static/media/school website.png": "/my-portfolio/static/media/school website.7ec21f21113a34c13f77.png",
+    "static/media/health-challenge-tracker.png": "/my-portfolio/static/media/health-challenge-tracker.4dc1bd714b60baed1a90.png",
+    "static/media/social media.png": "/my-portfolio/static/media/social media.9b51e73a8703adeabbcd.png",
+    "static/media/medical-management.png": "/my-portfolio/static/media/medical-management.e3c95bd9ef760469d8c3.png",
     "index.html": "/my-portfolio/index.html",
-    "main.1c9444a2.css.map": "/my-portfolio/static/css/main.1c9444a2.css.map",
-    "main.06aee5b3.js.map": "/my-portfolio/static/js/main.06aee5b3.js.map",
+    "main.6100a453.css.map": "/my-portfolio/static/css/main.6100a453.css.map",
+    "main.cdd9f241.js.map": "/my-portfolio/static/js/main.cdd9f241.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c9444a2.css",
-    "static/js/main.06aee5b3.js"
+    "static/css/main.6100a453.css",
+    "static/js/main.cdd9f241.js"
   ]
 }
