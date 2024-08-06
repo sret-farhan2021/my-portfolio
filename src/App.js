@@ -1,24 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+import ProjectDetail from './components/ProjectDetail';
 
-function App() {
+const projects = [
+  {
+    id: 1,
+    title: 'Project One',
+    description: 'Description for project one.',
+    image: 'https://via.placeholder.com/150'
+  },
+  {
+    id: 2,
+    title: 'Project Two',
+    description: 'Description for project two.',
+    image: 'https://via.placeholder.com/150'
+  },
+  // Add more projects
+];
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/projects" exact>
+            <Projects projects={projects} />
+          </Route>
+          <Route path="/project/:id">
+            <ProjectDetail projects={projects} />
+          </Route>
+          <Route path="/contact" component={Contact} />
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
